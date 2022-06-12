@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "George Jack",
+      "email": "crappab@squarespace.com",
+      "status": "active",
+      "isEdit": "no",
+      "imgUrl": "images/img1.png"
+    },
+    {
+      "id": 2,
+      "name": "Brendan Jacquest",
+      "email": "gbroe0@feedburner.com",
+      "status": "Inactive",
+      "isEdit": "no",
+      "imgUrl": "images/img2.png"
+    },
+    {
+      "id": 3,
+      "name": "Chauncey Farrington",
+      "email": "cfarrington6@rambler.ru",
+      "status": "active",
+      "isEdit": "no",
+      "imgUrl": "images/img3.png"
+    },
+    {
+      "name": "Cecelia Ching",
+      "email": "claricelioritta@gmail.com",
+      "imgUrl": "images/img4.png",
+      "isEdit": "no",
+      "status": "active",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Carny Baldrick",
+      "email": "cbaldrick9@t.co",
+      "status": "active",
+      "isEdit": "no",
+      "imgUrl": "images/img5.png"
+    },
+    {
+      "name": "Lina Frost",
+      "email": "lina@gmail.com",
+      "imgUrl": "images/img6.png",
+      "isEdit": "no",
+      "status": "active",
+      "id": 6
+    }
+  ]
+}

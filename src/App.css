@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+.users .status{
+  @apply rounded-full px-2 w-2 h-4 ring-2 ring-gray-50;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.users .delete{
+  position: absolute;
+  top:0;
+  right: 10px;
+  display: none;
+}
+
+input.form-input{
+  @apply px-3 py-3 relative bg-white bg-white rounded text-sm border shadow outline-none focus:outline-none focus:ring w-full
+}
+
+.users .profile:hover{
+  @apply border-2 border-gray-100 rounded;
+  cursor: pointer;
+}
+
+.users .profile:hover .delete{
+  display: inherit;
+}
